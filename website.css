@@ -1,0 +1,224 @@
+
+#navbar{   
+    display:flex;
+justify-content: space-around;
+align-items: center;
+}
+#navbar-color{
+    color:hsl(39, 87%, 39%)
+}
+#navbar-links{
+  display: flex;
+  column-gap: 30px;
+  font-size: 20px;
+}
+#navbar-links > a{
+    text-decoration: none;
+    align-items: center;
+}
+#navbar-download{
+    display: flex;
+    background-color: rgb(234,88,12);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+}
+#navbar-download > img{
+    border-radius: 20px;
+    
+}
+
+
+/* #2 */
+#profile-info{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+#profile-info >#profile-text{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+
+}
+#profile-text >  #profile-span{
+    font-size: 20px;
+  
+
+}
+#profile-text > h1{
+    font-size: 35px;
+   
+}
+#profile-text > p{
+    align-items: start;
+    font-size: 20px;
+}
+
+#profile-img{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+#email-profile{
+    padding: 10px;
+ border:2px solid black;
+    border-radius: 10px;
+    width: 70%;
+
+
+}
+#email-profile > input{
+    width: 83%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+#email-profile >span{
+   
+    background-color: rgb(234,88,12);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+   
+}
+
+#profile-button{
+text-align: center;
+    background-color: rgb(234,88,12);
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    padding: 4px;
+ 
+   
+}
+
+#profile-button > img{
+    width:20px;
+justify-content: center;
+}
+
+#chooseus{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+#chooseus > #choose-img {
+  
+    width: 80%;
+margin-left: 80px;
+
+}
+#choose-img > img{
+    width:75%;
+    border-radius: 30px;
+}
+
+/* #choose-button{
+    background-color: rgb(234,88,12);
+    border-radius: 20px;
+    color: white;
+    align-items: start;
+    padding: 4px;
+} */
+#choose-text > h1{
+font-size: 35px;
+}
+#choose-text > p{
+    font-size: 20px;
+}
+ul > li{
+    line-height: 30px;
+    font-size: 17px;
+}
+li::marker {
+    color: rgb(234,88,12);
+}
+.submit-button{
+   /* display: inline; */
+    background-color: rgb(240,133,77);
+    border-radius: 10px;
+    padding: 2px 15px;
+}
+
+
+
+#3
+#service{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 60px;
+}
+#service-text {
+    margin-top: 60px;
+    width:100%;
+    align-items:center ;
+    text-align: center;
+}
+#service-text > span {
+    align-items: center;
+padding:5px 20px;
+border-radius: 10px;
+background-color: rgb(240,133,77);
+font-size: 20px;
+/* color:black; */
+
+}
+#services-card{
+    display: flex;
+    gap:30px;
+   justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+width:35%;
+justify-content: center;
+/* align-items: center; */
+border: 2px solid black;
+border-radius: 20PX;
+
+}
+.card > .card-left{
+    height: 15px;
+    margin-top: 20px;
+    align-items: start;
+    background-color: black;
+    padding: 15px;
+    border-radius: 6px;
+    color:white;
+    margin-left: 20PX;
+}
+.card-right>img{
+    width:15px;
+    margin-top: 50px;
+ 
+}
+ button > a{
+    text-decoration: none;
+
+}
+
+/* #faq */
+#faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px 10px;
+   color: black;
+
+}
